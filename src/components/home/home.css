@@ -1,0 +1,45 @@
+.home-wrapper {
+    text-align: center;
+    cursor: pointer;
+}
+
+.dark .home-wrapper a {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.light .home-wrapper a {
+    color: rgba(0, 123, 255, 0.50);
+}
+
+.dark .home-wrapper:hover a {
+    color: rgba(126, 126, 255, 0.50);
+}
+
+.light .home-wrapper:hover a {
+    color: rgba(0, 123, 255, 0.75);
+}
+
+
+.gnma-header {
+    font-family: BebasNeue;
+    font-size: 8em;
+    letter-spacing: 0.0em;
+    transform: scale(1.0, 0.5);
+}
+
+
+.text-file-header {
+    font-family: Lato;
+    font-size: 4em;
+    letter-spacing: -0.040em;
+    transform: scale(1.0, 0.5);
+    margin-top: -1.35em;
+    border-top: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+
+.home-header-icon {
+    font-size: 1em;
+    margin-top: -1.5em;
+}
+

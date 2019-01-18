@@ -1,0 +1,28 @@
+.splash-container {
+    position: fixed;
+    z-index: 9999999;
+    right: 1%;
+    bottom: 0.95em;
+    text-align: center;
+}
+
+.hidden-splash {
+    position: fixed;
+    z-index: 9999999;
+    right: 1%;
+    bottom: 0.95em;
+    text-align: center;
+    animation: pushOut 3s 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes pushOut {
+     0% { transform: translate3d(   0%, 0, 0); opacity: 1.0; }
+    30% { transform: translate3d( -10%, 0, 0); opacity: 1.0; }
+    50% { transform: translate3d(  10%, 0, 0); opacity: 1.0; }
+   100% { transform: translate3d( 200%, 0, 0); opacity: 0.0; }
+}
+ 
+ 

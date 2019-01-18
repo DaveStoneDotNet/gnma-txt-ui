@@ -1,0 +1,59 @@
+
+@import "../functions/functions";
+@import "variables";
+
+$light-bg: #ddddff;
+$light-color: #333333;
+
+// ------------------------------------------------------------------------------------------------
+// Borders
+// ------------------------------------------------------------------------------------------------
+
+$border-light-color: rgba(0, 0, 0, 0.10);
+
+// ------------------------------------------------------------------------------------------------
+// Navbars
+// ------------------------------------------------------------------------------------------------
+
+$navbar-light-bg-color:             rgba($blue,  1.00);
+$navbar-light-color:                rgba($black, 1.50);
+$navbar-light-hover-color:          rgba($black, 1.70);
+$navbar-light-active-color:         rgba($black, 1.90);
+$navbar-light-disabled-color:       rgba($black, 1.30);
+$navbar-light-toggler-border-color: rgba($black, 1.10);
+$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+
+// ------------------------------------------------------------------------------------------------
+// Dropdowns
+// ------------------------------------------------------------------------------------------------
+
+$dropdown-light-bg:               rgba($light,   1.00);
+$dropdown-link-hover-light-bg:    rgba($primary, 1.00);   // sync with 'button.dropdown-item' below
+$dropdown-link-active-light-bg:   rgba($purple,  1.00);
+$dropdown-link-hover-light-color: rgba($white,   1.00);
+$dropdown-border-light-color:     rgba($white,   0.50);
+$dropdown-divider-light-bg:       rgba($white,   0.25);
+
+// ------------------------------------------------------------------------------------------------
+// Dropdown Menu
+// ------------------------------------------------------------------------------------------------
+
+$dropdown-menu-light-bg-color: rgba($primary, 1.00);
+$dropdown-menu-light-border-color: $opacity-white-50;
+
+// ------------------------------------------------------------------------------------------------
+// Dropdown Item
+// ------------------------------------------------------------------------------------------------
+
+$dropdown-item-light-color:          $opacity-white-50;
+$dropdown-item-light-bg-color:       $primary;
+$dropdown-item-hover-light-color:    $white;
+$dropdown-item-hover-light-bg-color: $opacity-black-10;
+
+// ------------------------------------------------------------------------------------------------
+// Links
+// ------------------------------------------------------------------------------------------------
+
+$link-light-color:       rgba(255,255,255,0.5);
+$link-hover-light-color: rgba(255,255,255,1.0);
+

@@ -1,0 +1,67 @@
+.icon-header {
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 1.0rem;
+    font-size: 1rem;
+}
+
+.dark .icon-header {
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.light .icon-header {
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.fa-icons ul {
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fa-icons li {
+    display: inline-block;
+    margin: 0;
+    padding: 0.5rem;
+    width: 50px;
+}
+
+.dark .fa-icons li {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.light .fa-icons li {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.dark .fa-icons li .minor {
+    color: rgba(255, 255, 255, 0.10);
+}
+
+.light .fa-icons li .minor {
+    color: rgba(0, 0, 0, 0.10);
+}
+
+.fa-icons li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-icons li div .minor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.icon-list {
+    padding: 0rem 0rem 0rem 1.5rem;
+}

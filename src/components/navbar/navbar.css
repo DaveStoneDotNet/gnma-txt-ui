@@ -1,0 +1,13 @@
+.inner-brand {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.inner-brand:hover {
+}
+
+.pointer {
+    cursor: pointer;
+}

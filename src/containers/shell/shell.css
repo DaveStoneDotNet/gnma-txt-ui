@@ -1,0 +1,36 @@
+#shell {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.shell-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+@media (min-width: 576px) {
+    .shell-container {
+        max-width: 540px; 
+    } 
+}
+
+@media (min-width: 768px) {
+    .shell-container {
+        max-width: 720px; 
+    } 
+}
+
+@media (min-width: 992px) {
+    .shell-container {
+        max-width: 960px; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .shell-container {
+        max-width: 1400px; 
+    } 
+}

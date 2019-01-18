@@ -1,0 +1,49 @@
+.gnma-flex {
+    display: flex;
+}
+
+.gnma-flex-left {
+    padding-right: 1em;
+    width: 50%;
+}
+
+.gnma-flex-right {
+    padding-left: 1em;
+    padding-bottom: 100em;
+    position: fixed;
+    right: 1em;
+    width: 50%;
+}
+
+.txt-file {
+    font-family: monospace;
+    white-space: nowrap;
+}
+
+.shared-folder-location {
+    font-family: monospace;
+    font-size: 0.75em;
+    white-space: nowrap;
+    padding: 0.5em 0 0.5em 1.0em;
+    margin-top: 1.0em;
+}
+
+
+
+.dark .gnma-flex-left {
+    border-right: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.light .gnma-flex-left {
+    border-right: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.dark .shared-folder-location {
+    color: rgba(255, 255, 255, 0.1);
+    border-top: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.light .shared-folder-location {
+    color: rgba(0, 0, 0, 0.25);
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+}

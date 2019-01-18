@@ -1,0 +1,173 @@
+
+.notification-center {  
+    min-width:          15%;
+    max-width:          25%;
+    z-index:            9998;
+    position:           fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    height:             auto;
+    top:                auto;
+    left:               auto;
+    bottom:             40px;
+    right:              10px;
+}
+
+.notification-center > .container {  
+    margin-bottom: 20px;
+}
+
+.notification-center > .container visible {  
+    display: block;
+}
+
+.notification-center > .container hidden {  
+    display: none;
+}
+
+.notification-center > .container:hover .p-bar {  
+    visibility: hidden;
+}
+
+.notification-center > .container:hover .dismiss {  
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.notification-center > .container .header { 
+    color: rgba(255, 255, 255, 1.0); 
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+    font-size: 0.85em;
+    font-weight: bold;
+    min-height: 2.5em;
+    padding: 5px 0px 0px 10px;
+}
+
+.light .notification-center > .container .header { 
+    border-top:    solid 1px rgba(  0,   0,   0, 0.10);
+    border-left:   solid 1px rgba(  0,   0,   0, 0.10);
+    border-right:  solid 1px rgba(  0,   0,   0, 0.10);
+}
+
+.dark .notification-center > .container .header { 
+    border-top:    solid 1px rgba(255, 255, 255, 0.50);
+    border-left:   solid 1px rgba(255, 255, 255, 0.50);
+    border-right:  solid 1px rgba(255, 255, 255, 0.50);
+}
+
+.light .notification-center > .container .message { 
+    border-bottom: solid 1px rgba(  0,   0,   0, 0.10);
+    border-left:   solid 1px rgba(  0,   0,   0, 0.10);
+    border-right:  solid 1px rgba(  0,   0,   0, 0.10);
+}
+
+.dark .notification-center > .container .message { 
+    border-bottom: solid 1px rgba(255, 255, 255, 0.50);
+    border-left:   solid 1px rgba(255, 255, 255, 0.50);
+    border-right:  solid 1px rgba(255, 255, 255, 0.50);
+}
+
+
+.notification-center > .container .message { 
+    padding: 5px 10px 10px 10px;
+    font-size: 0.75em;
+    min-height: 3.5em;
+}
+
+.notification-center > .container .dismiss { 
+    float: right;
+    margin: 7px 10px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.notification-center > .container .dismiss:hover { 
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.light .notification-center > .container .message { 
+    color: rgba(  0,   0,   0, 0.75);
+}
+
+.dark .notification-center > .container .message { 
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.light .notification-center > .container.error   .p-bar   { background-color: rgba(255,  18,   0, 1.0); }
+.light .notification-center > .container.warning .p-bar   { background-color: rgba(255,  90,  30, 1.0); }
+.light .notification-center > .container.info    .p-bar   { background-color: rgba(  0, 123, 255, 1.0); }
+.light .notification-center > .container.success .p-bar   { background-color: rgba( 31, 161,  48, 1.0); }
+
+.dark  .notification-center > .container.error   .p-bar   { background-color: rgba(255,  18,   0, 1.0); }
+.dark  .notification-center > .container.warning .p-bar   { background-color: rgba(248, 133,  41, 1.0); }
+.dark  .notification-center > .container.info    .p-bar   { background-color: rgba( 15, 102, 255, 1.0); }
+.dark  .notification-center > .container.success .p-bar   { background-color: rgba( 67, 152,  60, 1.0); }
+
+.light .notification-center > .container.error   .header  { background-color: rgba(155,  50,  50, 1.0); }
+.light .notification-center > .container.warning .header  { background-color: rgba(243, 161,  38, 1.0); }
+.light .notification-center > .container.info    .header  { background-color: rgba(126, 140, 197, 1.0); }
+.light .notification-center > .container.success .header  { background-color: rgba(114, 188, 105, 1.0); }
+
+.dark  .notification-center > .container.error   .header  { background-color: rgba(232, 157, 150, 1.0); }
+.dark  .notification-center > .container.warning .header  { background-color: rgba(243, 190,  68, 1.0); }
+.dark  .notification-center > .container.info    .header  { background-color: rgba(126, 190, 247, 1.0); }
+.dark  .notification-center > .container.success .header  { background-color: rgba(114, 218, 135, 1.0); }
+
+.light .notification-center > .container.error   .message { background-color: rgba(232, 157, 150, 0.75); }
+.light .notification-center > .container.warning .message { background-color: rgba(243, 191,  68, 0.75); }
+.light .notification-center > .container.info    .message { background-color: rgba(126, 190, 247, 0.75); }
+.light .notification-center > .container.success .message { background-color: rgba(114, 218, 135, 0.75); }
+
+.dark  .notification-center > .container.error   .message { background-color: rgba(232, 157, 150, 0.75); }
+.dark  .notification-center > .container.warning .message { background-color: rgba(243, 191,  68, 0.75); }
+.dark  .notification-center > .container.info    .message { background-color: rgba(126, 190, 247, 0.75); }
+.dark  .notification-center > .container.success .message { background-color: rgba(114, 218, 135, 0.75); }
+
+.light .notification-center > .container.default .header  { color: rgba(255, 255, 255, 0.75); background-color: rgba(  0,   0,   0, 0.35); }
+.dark  .notification-center > .container.default .header  { color: rgba(255, 255, 255, 0.75); background-color: rgba(255, 255, 255, 0.50); }
+
+.light .notification-center > .container.default .message { color: rgba(  0,   0,   0, 0.75); background-color: rgba(  0,   0,   0, 0.15); }
+.dark  .notification-center > .container.default .message { color: rgba(255, 255, 255, 0.75); background-color: rgba(255, 255, 255, 0.40); }
+
+.light .notification-center > .container.default .p-bar   { background-color: rgba(  0,   0,   0, 0.50); }
+.dark  .notification-center > .container.default .p-bar   { background-color: rgba(255, 255, 255, 0.75); }
+
+.p-bar {
+    width:                             1px;
+    height:                            4px;
+
+    animation:                         p-bar-animation 10s ease-in;
+    animation-fill-mode:               forwards;
+    animation-iteration-count:         1;
+
+    -webkit-animation:                 p-bar-animation 10s ease-in;
+    -webkit-animation-fill-mode:       forwards;
+    -webkit-animation-iteration-count: 1;
+
+    -o-animation:                      p-bar-animation 10s ease-in;
+    -o-animation-fill-mode:            forwards;
+    -o-animation-iteration-count:      1;
+
+    -moz-animation:                    p-bar-animation 10s ease-in;
+    -moz-animation-fill-mode:          forwards;
+    -moz-animation-iteration-count:    1;
+}
+
+@-webkit-keyframes p-bar-animation {
+    0% {
+        width: 1px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes p-bar-animation {
+    0% {
+        width: 1px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

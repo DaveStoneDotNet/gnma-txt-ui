@@ -1,0 +1,49 @@
+.error-list-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.error-list-table {
+    border: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.error-list-table tr {
+    border: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.error-list-table td {
+    vertical-align: top;
+    padding: 0.5em 1.0em 0.5em 1.0em;
+}
+
+.error-list-item {
+
+}
+
+.error-index-cell {
+    text-align: right;
+    border-right: solid 1px rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.error-index {
+}
+
+.error-title {
+    white-space: nowrap;
+    text-align: left;
+}
+
+.delete-error-icon {
+    text-align: right;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.error-message {
+    text-align: left;
+}
+

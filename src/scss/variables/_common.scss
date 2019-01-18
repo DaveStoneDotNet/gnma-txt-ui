@@ -1,0 +1,56 @@
+@import "../functions/functions";
+@import "../mixins/hover";
+@import "variables";
+
+$border-color: rgba(255, 255, 255, 0.50);
+
+$opacity-white-10: rgba(255, 255, 255, 0.1);
+$opacity-white-20: rgba(255, 255, 255, 0.2);
+$opacity-white-30: rgba(255, 255, 255, 0.3);
+$opacity-white-40: rgba(255, 255, 255, 0.4);
+$opacity-white-50: rgba(255, 255, 255, 0.5);
+$opacity-white-60: rgba(255, 255, 255, 0.6);
+$opacity-white-70: rgba(255, 255, 255, 0.7);
+$opacity-white-80: rgba(255, 255, 255, 0.8);
+$opacity-white-90: rgba(255, 255, 255, 0.9);
+
+$opacity-black-10: rgba(255, 255, 255, 0.1);
+$opacity-black-20: rgba(255, 255, 255, 0.2);
+$opacity-black-30: rgba(255, 255, 255, 0.3);
+$opacity-black-40: rgba(255, 255, 255, 0.4);
+$opacity-black-50: rgba(255, 255, 255, 0.5);
+$opacity-black-60: rgba(255, 255, 255, 0.6);
+$opacity-black-70: rgba(255, 255, 255, 0.7);
+$opacity-black-80: rgba(255, 255, 255, 0.8);
+$opacity-black-90: rgba(255, 255, 255, 0.9);
+
+// ------------------------------------------------------------------------------------------------
+// Nav Links
+// ------------------------------------------------------------------------------------------------
+
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+
+$nav-link-padding-y:                .5rem;
+$nav-link-height:                   ($font-size-base * $line-height-base + $nav-link-padding-y * 2);
+
+// ------------------------------------------------------------------------------------------------
+// Nav Brand
+// ------------------------------------------------------------------------------------------------
+
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) / 2;
+
+// ------------------------------------------------------------------------------------------------
+// Dropdowns
+// ------------------------------------------------------------------------------------------------
+
+$dropdown-border-radius:    0px;
+$dropdown-padding-y:        0px;
+
+// ------------------------------------------------------------------------------------------------
+// Links
+// ------------------------------------------------------------------------------------------------
+
+$link-decoration:       none;
+$link-hover-decoration: underline;
+
