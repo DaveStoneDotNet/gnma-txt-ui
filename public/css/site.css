@@ -1,0 +1,147 @@
+.box {
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin: 7px 28px 0 0;
+  transform-origin: center;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.15); }
+
+.box:hover {
+  animation-name: rotater;
+  animation-duration: 5.0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.header-box {
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px; }
+
+.inner-brand {
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.15); }
+
+.inner-brand:hover {
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.user {
+  color: rgba(255, 255, 255, 0.5); }
+
+.user:hover {
+  color: white; }
+
+.sbox-code {
+  font-size: 0.75rem;
+  font-family: monospace;
+  padding-top: 0.25rem;
+  border-top-style: solid;
+  border-top-width: 1px; }
+
+.sbox-header {
+  font-size: 0.75rem; }
+
+.gbox {
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #343a40; }
+
+.size-header {
+  padding: 0.25rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
+
+.size-value {
+  padding: 0.25rem; }
+
+.sbox {
+  width: 75px;
+  height: 60px;
+  text-align: center;
+  font-size: 0.75rem;
+  border-style: solid;
+  border-width: 1px; }
+
+.dark {
+  background-color: #252830; }
+  .dark .navbar {
+    background-color: #343a40; }
+  .dark .footer {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #343a40; }
+  .dark .box {
+    border-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.15); }
+  .dark .box:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .dark .header-box {
+    border-color: rgba(255, 255, 255, 0.25); }
+  .dark .inner-brand {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.15); }
+  .dark .inner-brand:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .dark .user {
+    color: rgba(255, 255, 255, 0.5); }
+  .dark .user:hover {
+    color: white; }
+  .dark .sbox-code {
+    border-color: rgba(255, 255, 255, 0.1); }
+  .dark .gbox {
+    border-color: rgba(255, 255, 255, 0.25);
+    background-color: #343a40; }
+  .dark .size-header {
+    border-color: rgba(255, 255, 255, 0.1); }
+  .dark .sbox {
+    border: solid 1px rgba(255, 255, 255, 0.25); }
+  .dark .sbox.active {
+    background-color: #343a40; }
+
+.light {
+  color: #333333; }
+  .light .footer {
+    color: #343a40; }
+  .light .box {
+    border-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15); }
+  .light .box:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2); }
+  .light .header-box {
+    border-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.05); }
+  .light .inner-brand {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.15); }
+  .light .inner-brand:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .light .user {
+    color: rgba(0, 0, 0, 0.5); }
+  .light .user:hover {
+    color: rgba(0, 0, 0, 0.75); }
+  .light .sbox-code {
+    border-color: rgba(255, 255, 255, 0.1); }
+  .light .gbox {
+    border-color: rgba(255, 255, 255, 0.25);
+    background-color: #343a40; }
+  .light .size-header {
+    border-color: rgba(255, 255, 255, 0.1); }
+  .light .sbox {
+    border: solid 1px rgba(255, 255, 255, 0.25); }
+  .light .sbox.active {
+    background-color: #343a40; }
